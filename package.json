@@ -1,0 +1,21 @@
+{
+  "name": "timira-theme",
+  "displayName": "timira-theme",
+  "description": "Where darkness meets clarity: a refined VS Code theme for developers.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.144.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "timira",
+        "uiTheme": "vs-dark",
+        "path": "./themes/timira-color-theme.json"
+      }
+    ]
+  }
+}
